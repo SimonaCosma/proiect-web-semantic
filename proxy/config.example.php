@@ -1,0 +1,3 @@
+<?php
+$GROQ_API_KEY = "PUNE_CHEIA_TA_AICI";
+?>

@@ -1,0 +1,172 @@
+{
+  "winery": [
+    {
+      "id": 1,
+      "name": "Domaine du Soleil",
+      "country": "France",
+      "region": "Bordeaux",
+      "founded": 1850
+    },
+    {
+      "id": 2,
+      "name": "Cotnari",
+      "country": "Romania",
+      "region": "Moldova",
+      "founded": 1440
+    },
+    {
+      "id": 3,
+      "name": "Villa Toscana",
+      "country": "Italy",
+      "region": "Tuscany",
+      "founded": 1385
+    },
+    {
+      "id": 4,
+      "name": "Bodega del Rey",
+      "country": "Spain",
+      "region": "Rioja",
+      "founded": 1920
+    },
+    {
+      "id": 5,
+      "name": "Cramele Recas",
+      "country": "Romania",
+      "region": "Banat",
+      "founded": 1998
+    },
+    {
+      "country": "Germany",
+      "founded": 1900,
+      "name": "Test Winery",
+      "region": "Rhine",
+      "id": 6
+    },
+    {
+      "country": "France",
+      "founded": 1932,
+      "name": "Domaine du Lac",
+      "region": "Alsace",
+      "id": 7
+    },
+    {
+      "country": "France",
+      "founded": 1875,
+      "name": "Chateau Blanc",
+      "region": "Burgundy",
+      "id": 8
+    },
+    {
+      "country": "France",
+      "founded": 1901,
+      "name": "Chateau Loire",
+      "region": "Loire",
+      "id": 9
+    },
+    {
+      "country": "Italy",
+      "founded": 1950,
+      "name": "Crama A",
+      "region": "Toscana",
+      "id": 10
+    }
+  ],
+  "wine": [
+    {
+      "id": 1,
+      "wineryId": 1,
+      "name": "Cabernet Sauvignon",
+      "type": "red",
+      "year": 2019,
+      "price": 250
+    },
+    {
+      "id": 2,
+      "wineryId": 1,
+      "name": "Merlot",
+      "type": "red",
+      "year": 2020,
+      "price": 180
+    },
+    {
+      "id": 3,
+      "wineryId": 1,
+      "name": "Chardonnay",
+      "type": "white",
+      "year": 2021,
+      "price": 160
+    },
+    {
+      "id": 4,
+      "wineryId": 2,
+      "name": "Grasa de Cotnari",
+      "type": "white",
+      "year": 2021,
+      "price": 45
+    },
+    {
+      "id": 5,
+      "wineryId": 2,
+      "name": "Feteasca Alba",
+      "type": "white",
+      "year": 2022,
+      "price": 35
+    },
+    {
+      "id": 6,
+      "wineryId": 2,
+      "name": "Feteasca Neagra",
+      "type": "red",
+      "year": 2020,
+      "price": 55
+    },
+    {
+      "id": 7,
+      "wineryId": 3,
+      "name": "Chianti",
+      "type": "red",
+      "year": 2018,
+      "price": 95
+    },
+    {
+      "id": 8,
+      "wineryId": 3,
+      "name": "Vernaccia",
+      "type": "white",
+      "year": 2020,
+      "price": 70
+    },
+    {
+      "id": 9,
+      "wineryId": 4,
+      "name": "Tempranillo",
+      "type": "red",
+      "year": 2019,
+      "price": 85
+    },
+    {
+      "id": 10,
+      "wineryId": 4,
+      "name": "Garnacha",
+      "type": "rose",
+      "year": 2021,
+      "price": 60
+    },
+    {
+      "id": 11,
+      "wineryId": 5,
+      "name": "Riesling de Banat",
+      "type": "white",
+      "year": 2022,
+      "price": 30
+    },
+    {
+      "id": 12,
+      "wineryId": 5,
+      "name": "Merlot de Recas",
+      "type": "red",
+      "year": 2021,
+      "price": 40
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Winery Assistant</title>
+</head>
+<body>
+    <h1>Winery Assistant</h1>
+    <input type="text" id="mesaj" placeholder="Scrie o intrebare..." style="width:500px">
+    <button onclick="trimite()">Trimite</button>
+    <div id="raspuns"></div>
+
+    <script>
+        function trimite() {
+            var mesaj = document.getElementById('mesaj').value;
+            document.getElementById('raspuns').innerHTML = 'Se incarca...';
+
+            fetch('http://localhost:5000/proxy.php', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({mesaj: mesaj})
+            })
+            .then(function(raspuns) {
+                return raspuns.json();
+            })
+            .then(function(date) {
+                document.getElementById('raspuns').innerHTML = date.raspuns;
+            })
+            .catch(function(eroare) {
+                document.getElementById('raspuns').innerHTML = 'Eroare: ' + eroare;
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+@prefix schema: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+schema:winery1 a schema:Winery ;
+    schema:name "Domaine du Soleil" ;
+    schema:addressCountry "France" ;
+    schema:locationCreated "Bordeaux" ;
+    schema:foundingDate "1850" .
+
+schema:winery2 a schema:Winery ;
+    schema:name "Cotnari" ;
+    schema:addressCountry "Romania" ;
+    schema:locationCreated "Moldova" ;
+    schema:foundingDate "1440" .
+
+schema:winery3 a schema:Winery ;
+    schema:name "Villa Toscana" ;
+    schema:addressCountry "Italy" ;
+    schema:locationCreated "Tuscany" ;
+    schema:foundingDate "1385" .
+
+schema:winery4 a schema:Winery ;
+    schema:name "Bodega del Rey" ;
+    schema:addressCountry "Spain" ;
+    schema:locationCreated "Rioja" ;
+    schema:foundingDate "1920" .
+
+schema:winery5 a schema:Winery ;
+    schema:name "Cramele Recas" ;
+    schema:addressCountry "Romania" ;
+    schema:locationCreated "Banat" ;
+    schema:foundingDate "1998" .
+
+schema:wine1 a schema:Product ;
+    schema:name "Cabernet Sauvignon" ;
+    schema:category "red" ;
+    schema:productionDate "2019" ;
+    schema:price "250" ;
+    schema:isRelatedTo schema:winery1 .
+
+schema:wine2 a schema:Product ;
+    schema:name "Merlot" ;
+    schema:category "red" ;
+    schema:productionDate "2020" ;
+    schema:price "180" ;
+    schema:isRelatedTo schema:winery1 .
+
+schema:wine3 a schema:Product ;
+    schema:name "Chardonnay" ;
+    schema:category "white" ;
+    schema:productionDate "2021" ;
+    schema:price "160" ;
+    schema:isRelatedTo schema:winery1 .
+
+schema:wine4 a schema:Product ;
+    schema:name "Grasa de Cotnari" ;
+    schema:category "white" ;
+    schema:productionDate "2021" ;
+    schema:price "45" ;
+    schema:isRelatedTo schema:winery2 .
+
+schema:wine5 a schema:Product ;
+    schema:name "Feteasca Alba" ;
+    schema:category "white" ;
+    schema:productionDate "2022" ;
+    schema:price "35" ;
+    schema:isRelatedTo schema:winery2 .
+
+schema:wine6 a schema:Product ;
+    schema:name "Feteasca Neagra" ;
+    schema:category "red" ;
+    schema:productionDate "2020" ;
+    schema:price "55" ;
+    schema:isRelatedTo schema:winery2 .
+
+schema:wine7 a schema:Product ;
+    schema:name "Chianti" ;
+    schema:category "red" ;
+    schema:productionDate "2018" ;
+    schema:price "95" ;
+    schema:isRelatedTo schema:winery3 .
+
+schema:wine8 a schema:Product ;
+    schema:name "Vernaccia" ;
+    schema:category "white" ;
+    schema:productionDate "2020" ;
+    schema:price "70" ;
+    schema:isRelatedTo schema:winery3 .
+
+schema:wine9 a schema:Product ;
+    schema:name "Tempranillo" ;
+    schema:category "red" ;
+    schema:productionDate "2019" ;
+    schema:price "85" ;
+    schema:isRelatedTo schema:winery4 .
+
+schema:wine10 a schema:Product ;
+    schema:name "Garnacha" ;
+    schema:category "rose" ;
+    schema:productionDate "2021" ;
+    schema:price "60" ;
+    schema:isRelatedTo schema:winery4 .
+
+schema:wine11 a schema:Product ;
+    schema:name "Riesling de Banat" ;
+    schema:category "white" ;
+    schema:productionDate "2022" ;
+    schema:price "30" ;
+    schema:isRelatedTo schema:winery5 .
+
+schema:wine12 a schema:Product ;
+    schema:name "Merlot de Recas" ;
+    schema:category "red" ;
+    schema:productionDate "2021" ;
+    schema:price "40" ;
+    schema:isRelatedTo schema:winery5 .
